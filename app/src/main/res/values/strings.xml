@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TheGuessingGame</string>
+    <string name="pick_a_number_and_i_m_going_to_guess_it">Pick a Number from 0 to 1000 and I\'m going to guess it.</string>
+    <string name="enter_number_here">Enter Number Here</string>
+    <string name="picture_of_a_monkey">Picture Of A Monkey</string>
+    <string name="i_ll_close_my_eyes">I\'ll Close My Eyes</string>
+    <string name="now_i_ll_guess">oK! Now I\'ll guess</string>
+    <string name="done">DONE!</string>
+    <string name="is_your_number">Is Your Number...</string>
+    <string name="yes">GREATER</string>
+    <string name="no">LESS</string>
+    <string name="IsItLessThan">\"Is your number Greater or less than, %1$d \"</string>
+    <string name="IsItGreaterThan">Is your number Greater or less than, %1$d \" </string>
+    <string name="First_Guess">Is your number Greater or less than 500</string>
+    <string name="start_over">Start Over</string>
+</resources>
