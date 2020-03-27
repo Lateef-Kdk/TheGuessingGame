@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     var end = 0
     var numGuesses = 0
     var difference = 0
+    var IWontUseTHis = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,20 +30,6 @@ class MainActivity : AppCompatActivity() {
         beginningNumber = findViewById(R.id.beginTV)
         endingNumber = findViewById(R.id.endTV)
         theNumberTheyEntered = findViewById(R.id.numberTVID)
-
-//        if(beginningNumber.text.toString() != ""){
-//            begin = beginningNumber.text.toString().toInt()
-//        }
-//        if(endingNumber.text.toString() != ""){
-//            end = endingNumber.text.toString().toInt()
-//        }
-//        difference = begin - end
-//
-//        numGuesses = (log10(difference.toDouble()) / log10(2.0))
-//        Log.i("Calculations",begin.toString())
-//        Log.i("Calculations",end.toString())
-//        Log.i("Calculations",difference.toString())
-//        Log.i("Calculations",numGuesses.toString())
 
         //create shared preferences
         val pref = getSharedPreferences("MYPREFS",Context.MODE_PRIVATE)
