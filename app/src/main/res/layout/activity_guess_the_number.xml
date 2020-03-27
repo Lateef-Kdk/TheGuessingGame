@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6FAAEC0F"
     android:padding="10dp"
     tools:context=".MainActivity">
 
@@ -21,6 +22,14 @@
             android:drawableBottom="@mipmap/simle_monkey"
             android:gravity="center_horizontal"
             android:text="@string/now_i_ll_guess"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/NumCountTVID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Blank"
             android:textSize="24sp" />
 
         <TextView
@@ -46,6 +55,15 @@
                 android:textColor="#C4C11717" />
 
             <Button
+                android:id="@+id/neitherBtnID"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/neither"
+                android:textColor="#0B0A0A" />
+
+            <Button
                 android:id="@+id/greaterButtonID"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
@@ -55,10 +73,19 @@
 
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/CorrectTVID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text='""'
+            android:textSize="30sp" />
+
         <Button
             android:id="@+id/restardBtnID"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/start_over" />
     </LinearLayout>
